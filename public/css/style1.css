@@ -1,0 +1,102 @@
+
+/* Global * ------------------------------------------------------------------------- */
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    /* padding: 0; */
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+.globalDiv{
+    width: 80%;
+    margin: auto;
+    /* overflow: auto; */
+}
+
+/* Button Zoom Effect */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+/* Buttons */
+#randomizer {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #016FB9;
+    padding: 5px 10px;
+}
+
+#home {
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #016FB9;
+    padding: 5px 10px;
+}
+
+/* Header * ------------------------------------------------------------------------- */
+
+header{
+    background-color: #016FB9;
+    padding-top: 20px;
+    border-bottom: #FF9505 7px solid;
+    min-height: 160px;
+}
+
+header #heading{
+    color: #FF9505; 
+    font-weight: bold;
+    margin: 4px 14px;
+}
+
+header #submit{
+    font-size: 14px;
+    background: #016FB9;
+    padding: 15px;
+    color: white;
+}
+
+/* Questions List * ------------------------------------------------------------------------- */
+
+#listContainer {
+    margin-top: 30px;
+}
+
+.myDIV {
+      min-width: 300px;
+      background-color: #FF9505;
+      margin-top: 5px;
+      display: none;
+      overflow: auto;
+      padding: 0 7px;
+    }
+
+/* pre {
+    font-size: inherit;
+    color: inherit;
+    border: initial;
+    margin-bottom: 5px;
+    white-space: pre;
+} */

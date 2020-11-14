@@ -1,0 +1,11 @@
+{"question":"Magnus","answer":"Carlsen","_id":"AacLZBCUSvjoyK9M"}
+{"question":"Harry","answer":"Potter","_id":"Bt2KXBS2dfnSIkKp"}
+{"question":"The join method","answer":"Here's an example:\n\nvar arr = [\"Hello\", \"World\"];\nvar str = arr.join(\" \");\n// Sets str to \"Hello World\"","_id":"HvsbiJZrY7eAcGCV"}
+{"question":"Shaq","answer":"O'Neal","_id":"PgX8D6tpZ6kavIUU"}
+{"question":"Go","answer":"Kart","_id":"WDRjOl0KyA7yVgoN"}
+{"question":"Riido","answer":"Ots","_id":"bh62dMj8lZbZwSmx"}
+{"question":"Kobe","answer":"Bryant","_id":"br0Qo3nOupg3Gq9h"}
+{"question":"SkullPunisher","answer":"221","_id":"jsaswfpudT6bw8ov"}
+{"question":"Donald ","answer":"Trump","_id":"msvAtqyXal9MLKU1"}
+{"question":"Gary","answer":"Payton","_id":"n5upyJMJ4XIOOcLV"}
+{"question":"Larry","answer":"Bird","_id":"pq4duw2TPrinPL8Z"}

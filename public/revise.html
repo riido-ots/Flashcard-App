@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html id="top">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revise | Welcome</title>
+  <meta name="author" content="Riido Ots">
+  <meta name="description"
+    content="Created to help you study whatever you want. Add question answer pairs to the list. Randomly pick a question with a hidden answer that you can check.">
+  <meta name="keywords" content="study, revise, learn">
+  <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+  <a id="randomizer" class="hvr-grow" href="" onclick="randomQ()">Randomizer</a>
+  <a id="home" class="hvr-grow" href="#top">Home</a>
+  <header>
+    <div class="globalDiv">
+      <h1 id="heading">Revise</h1>
+      <section id="submit">
+        <label>To add to the list type both a question and an answer:</label><br>
+        <textarea id="question" placeholder="Type Your question..."></textarea>
+        <textarea id="answer" placeholder="Type Your answer..."></textarea>
+        <input id="submit-btn" type="submit" onclick="pushData()" value="Add">
+      </section>
+    </div>
+  </header>
+
+  <div id="listContainer" class="globalDiv">
+  </div>
+  <script src=revise.js></script>
+</body>
+
+</html>
